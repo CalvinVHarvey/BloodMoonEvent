@@ -3,6 +3,7 @@ A Blood Moon plugin developed Originally Developed for the Frontier minecraft se
 
 
 
+
 #Introduction
 
 Adds Blood Moon events that are determined by the percent set in the config for what the percentage of one happening every night
@@ -14,6 +15,7 @@ You could edit things such as the min and max health.
 You are able to configure the drops for the mobs. Where when you kill a Blood moon mob it pulls a random item from the drops list.
 
 For the configuration of the loot read the looter.yml when you install the comments should give you clear instructions.
+
 
 
 
