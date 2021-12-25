@@ -37,21 +37,21 @@ A Blood Moon plugin developed Originally Developed for the Frontier minecraft se
 #Looter.yml Tutorial 
 
 
-exampleItem:   #This can be called anything its just the section for the Item
+    exampleItem:   #This can be called anything its just the section for the Item
 
-  type: #Minecraft item ID
+      type: #Minecraft item ID
   
-  amount: #The Amount of the item for the drop
+      amount: #The Amount of the item for the drop
   
-  chanceForDrop: #Percent for the drop 1-100 there can be decimals
+      chanceForDrop: #Percent for the drop 1-100 there can be decimals
   
-  lore: #Lore on the item
+      lore: #Lore on the item
   
-  enchantments:
+      enchantments:
   
-    enchType: #Enchantment ID for the enchantment
+        enchType: #Enchantment ID for the enchantment
     
-    level:  #Level of the enchant
+        level:  #Level of the enchant
     
 
 
