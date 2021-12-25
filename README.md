@@ -32,6 +32,7 @@ A Blood Moon plugin developed Originally Developed for the Frontier minecraft se
 
 #Looter.yml Tutorial 
 
+A more in depth tutorial is on the wiki for how to edit the loot file for the mob drops. 
 
     exampleItem:   #This can be called anything its just the section for the Item
 
@@ -48,6 +49,7 @@ A Blood Moon plugin developed Originally Developed for the Frontier minecraft se
         enchType: LOOTING #Enchantment ID for the enchantment
     
         level: 3  #Level of the enchant
-    
+        
+ 
 
 
