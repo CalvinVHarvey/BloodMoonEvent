@@ -35,20 +35,17 @@ A Blood Moon plugin developed Originally Developed for the Frontier minecraft se
 A more in depth tutorial is on the wiki for how to edit the loot file for the mob drops. 
 
     exampleItem:   #This can be called anything its just the section for the Item
-
       type: DIRT #Minecraft item ID
-  
       amount: 1 #The Amount of the item for the drop
-  
       chanceForDrop: 60 #Percent for the drop 1-100 there can be decimals
-  
       lore: 'its dirt' #Lore on the item
-  
       enchantments:
         looting:    #This can be called anything its just a section to list 
-  
           enchType: LOOTING #Enchantment ID for the enchantment
           level: 3  #Level of the enchant
+        section2:
+          enchType: SHARPNESS
+          level: 5
         
  
 
