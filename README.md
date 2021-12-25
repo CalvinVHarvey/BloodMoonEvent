@@ -45,10 +45,9 @@ A more in depth tutorial is on the wiki for how to edit the loot file for the mo
       lore: 'its dirt' #Lore on the item
   
       enchantments:
-        looting:
+        looting:    #This can be called anything its just a section to list 
   
           enchType: LOOTING #Enchantment ID for the enchantment
-    
           level: 3  #Level of the enchant
         
  
