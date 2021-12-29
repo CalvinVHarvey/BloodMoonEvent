@@ -1,0 +1,82 @@
+#Always put 'type:' and 'amount:' as the first things in the items
+slimeballs:
+  type: SLIME_BALL #The ID for the Minecraft Item must go here
+  amount: 1 
+  chanceForDrop: 15.0 #Percent goes from 1-100 but you are able to have decimals
+  mobType: all #Type of mob you wish to have drop the Item
+superSword:
+  type: IRON_SWORD
+  amount: 1
+  display_name: '&4&lBlood Sword'
+  chanceForDrop: 10
+  enchantments:
+    sharp:   #Make a section then 2 spaces next for the Enchantment type and then the level
+      enchType: SHARPNESS  #This must match the Enchantment ID for the enchantment you are going for
+      level: 5
+    loot:
+      enchType: LOOTING
+      level: 3
+  lore: 'Origin Unknown' #Adds lore to the item you can only have one line of lore
+  mobType: ZOMBIE
+diamond:
+  type: DIAMOND
+  amount: 1
+  chanceForDrop: 10
+  mobType: all
+netheriteScrap:
+  type: NETHERITE_SCRAP
+  amount: 1
+  chanceForDrop: 1
+  mobType: all
+mycelium:
+  type: MYCELIUM
+  amount: 1
+  chanceForDrop: 30
+  mobType: SKELETON
+blueice:
+  type: BLUE_ICE
+  amount: 10
+  chanceForDrop: 50
+  mobType: SKELETON
+prismarine:
+  type: PRISMARINE_BRICKS
+  amount: 5
+  chanceForDrop: 20
+  mobType: SKELETON
+trident: 
+  type: TRIDENT
+  amount: 1
+  chanceForDrop: 5
+  mobType: SKELETON
+bloodDiamond:
+  type: DIAMOND
+  amount: 1
+  display_name: '&4&lBlood Diamond'
+  enchantments:
+    loot: 
+      enchType: FORTUNE
+      level: 3
+  lore: 'Blood for the Blood Gods'
+  chanceForDrop: 5
+  mobType: all
+saddle: 
+  type: SADDLE
+  amount: 1
+  chanceForDrop: 10
+  mobType: all
+nametag:
+  type: NAME_TAG
+  amount: 1
+  chanceForDrop: 20
+  mobType: all
+bloodStaff:   #Blood Staff is a special Item that starts a Blood Moon if you don't want it in your server remove it or edit the drop chance
+  type: BLAZE_ROD
+  amount: 1
+  display_name: '&4&lBlood Staff'
+  lore: 'Summons a Blood Moon!'
+  enchants:
+    binding:
+      enchType: BINDING
+      level: 1
+  chanceForDrop: 1
+  mobType: all

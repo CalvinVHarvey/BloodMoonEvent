@@ -1,0 +1,14 @@
+name: BloodMoonEvent
+version: 2.0
+api-version: 1.18
+author: NorthAlaska
+main: me.NorthAlaska.BloodMoonEventV2.Main
+description: Each time night comes along there is a percent chance it will be a Blood Moon which will be rewarding but high risk, v2.0 for 1.18 versions
+
+commands:
+  summonBloodZombie: 
+  bloodmoon:
+    description: Starts or ends a Blood Moon
+    usage: /<command> [start/end/reload]
+    default: true
+  giverandomloot: 

@@ -1,0 +1,48 @@
+#Enter a whole number for the percent not a decimal must be lower than 100
+percentChanceForBloodMoon: 10
+
+#Mob armor drop chances, values must be a decimal (0.0 - zero percent chance) and (1.0 - 100% chance) 
+helmetDropChance: 0.01
+chestplateDropChance: 0.01
+leggingDropChance: 0.01
+bootsDropChance: 0.01
+weaponDropChance: 0.01
+
+#Mob Weapon Configuration for Blood Zombie
+
+#Must be a whole number
+weaponPercentage: 90
+sharpnessPercentage: 90 #Percent chance for whether Sharpness or Fire Aspect will be applied on the swords
+fireAspectPercentage: 90
+
+
+#Configurations for max and min strength levels among mobs
+maxStrength: 10
+minStrength: 5
+
+#Configuration for Min and Max Health Among Mobs
+zombieMaxHealth: 400
+zombieMinHealth: 100
+skeletonMaxHealth: 300
+skeletonMinHealth: 100
+spiderMaxHealth: 300
+spiderMinHealth: 100
+ironGolemMaxHealth: 400
+ironGolemMinHealth: 100
+creeperMaxHealth: 100
+creeperMinHealth: 50
+
+#For Skeletons: Max and Min power level on bows
+maxPower: 15
+minPower: 0
+
+#Do you want BloodMoon Mobs to spawn underground?
+spawnUnderGround: false
+
+#Chance for a blood spider to also be ridden by a Blood Skeleton
+jockeyChance: 1       #Can be decimal but is whole number percents not 0.0 - 1.0
+
+#Chance for CreeperJockey to spawn at night
+creeperJockeyChance: 10      #Can be decimal but is 1-100 in terms of percentages
+creeperChargedPercent: 10  #Percent chance a creeper jockey is charged
+creeperExplosionRadius: 4  #Whole number only the radius of the Blood Creeper's explosion
