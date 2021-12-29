@@ -46,6 +46,10 @@ A more in depth explanation is on the wiki for how to edit the loot file for the
         section2:
           enchType: SHARPNESS
           level: 5
+      #The options are: ZOMBIE, SKELETON, SPIDER, IRON_GOLEM, CREEPER
+      #If you want all the mobs to drop the Item just put "all"
+      mobType: ZOMBIE #Type of mob that will drop the Item
+    
         
  
 
